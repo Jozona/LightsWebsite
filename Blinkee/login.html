@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <script src="./js/swupScript.js"></script>
+    
+    <link rel="stylesheet" href="./css/Style_login.css">
+    <link rel="shortcut icon" href="./Img/Logo_PW1.ico">
+    <link rel="stylesheet" href="./css/swupStyle.css">
+    <title>Blogee</title>
+</head>
+<body id="swup" class="transition-fade">
+    <div  class="background transition-fade">
+        <div  class="login_box transition-fade">
+            <img class="logo" src="./img/logoFull.png" alt="Logo de Blogee">
+            <h1 class="slogan">Ingresa a tu cuenta</h1>
+            <form class="ingresar_datos" id="formL">
+                <label for="usuario">Usuario</label>
+                <input type="text" class="login" placeholder="Usuario" name="usuario" id="usuario" required>
+
+                <label for="contra">Contraseña</label>
+                <input type="password" class="login"  placeholder="Contraseña" name="contrase単a" id="contrase単a" required>
+
+                <input type="submit" class="btn_login" value="Ingresar">
+                <div class="registrar">
+                    <a href="Blogee_registro.html">¿No tienes una cuenta?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./Js/Js_login.js"></script>
+</body>
+</html>
